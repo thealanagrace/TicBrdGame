@@ -4,7 +4,10 @@
 
     public static TicBrd MakeNew
     {
-        get { return new(); }
+        get
+        {
+            return new TicBrd();
+        }
     }
 
     public void Initialize()
