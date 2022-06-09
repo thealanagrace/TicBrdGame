@@ -119,4 +119,3 @@
         column = int.Parse(columnLine);
     }
 }
-
