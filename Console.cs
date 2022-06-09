@@ -28,6 +28,7 @@ public static class Console
     public static string? ReadLine()
     {
         currentGameInputQueue = currentGameInputQueue.GetNextInput(out int input);
+        System.Console.WriteLine(input);
         return input.ToString();
     }
 
