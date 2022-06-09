@@ -91,7 +91,7 @@
             {
                 if (_spaces[1, 1] == "X")
                 {
-                    if (_spaces[1, 1] == "X")
+                    if (_spaces[2, 1] == "X")
                     {
                         return 2;
                     }
@@ -194,7 +194,7 @@
             {
                 if (_spaces[1, 1] == "O")
                 {
-                    if (_spaces[1, 1] == "O")
+                    if (_spaces[2, 1] == "O")
                     {
                         return 3;
                     }
